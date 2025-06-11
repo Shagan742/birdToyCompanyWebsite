@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(219, 96, 52);
+    background-color: #FFAE74;
 }
 
 .img1 {
@@ -13,6 +13,11 @@
 }
 
 .img3 {
+    width: 150px;
+    height: 150px;
+}
+
+.img4 {
     width: 150px;
     height: 150px;
 }
