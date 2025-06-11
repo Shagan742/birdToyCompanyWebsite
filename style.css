@@ -2,27 +2,31 @@
     animation-duration: 3s;
     position:relative;
     animation-name:img1;
+    animation-iteration-count: infinite;
 }
 
 @keyframes img1 {
-    from {   
+    0% {   
         transform:translateX(300px);
-    } to {
+    } 50% {
         transform:translateX(-300px);
+    } 100% {
+        transform: translateX(300px);
     }
 }
 
 .img2 {
     animation-name:img2;
-    animation-duration:3s;
     animation-delay:1s;
+    animation: fadeIn 5s;
+
 }
 
 @keyframe img2 {
     from {
         opacity:0;
     } to {
-        animation-timing-function:ease-in;
         opacity:1;
     }
 }
+
