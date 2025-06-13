@@ -2,7 +2,7 @@
     animation-duration: 2s;
     position:relative;
     animation-name:img1;
-    left:200px;
+    /* left:200px; */
     animation-iteration-count: 1;
 }
 
@@ -46,20 +46,20 @@ animation-iteration-count: 1;
 
 
 .about {
-    position:absolute;
-    bottom:300px;
+    position:relative;
+    /* bottom:300px; */
     animation: fadeInn 4s;
     animation-iteration-count: 1;
 }
 .products {
-    position:absolute;
-    bottom:300px;
+    position:relative;
+    /* bottom:300px; */
     animation: fadeInn 4s;
         animation-iteration-count: 1;
 }
 .contact {
-    position:absolute;
-    bottom:300px;
+    position:relative;
+    /* bottom:300px; */
     animation: fadeInn 4s;
     animation-iteration-count: 1;
 
