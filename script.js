@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         grid.innerHTML=''
         list.forEach((item, i) => {
             const col = document.createElement('div')
+            const j = 0;
             col.className='col-md-4 col-sm-12 d-flex justify-content-center my-5'
             col.innerHTML=`
             <div class="card h-100" style="width:210px;">
@@ -34,16 +35,33 @@ document.addEventListener('DOMContentLoaded', ()=> {
     <button type="button" data-bs-target="#carouselExampleIndicators${i}" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators${i}" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators${i}" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators${i}" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators${i}" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators${i}" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators${i}" data-bs-slide-to="6" aria-label="Slide 7"></button>
+
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="${item.productImg[j]}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="${item.productImg[j+1]}" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="${item.productImg[j+2]}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="${item.productImg[j+3]}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="${item.productImg[j+4]}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="${item.productImg[j+5]}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="${item.productImg[j+6]}" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators${i}" data-bs-slide="prev">

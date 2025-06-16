@@ -40,3 +40,13 @@ p {
     width:auto;
     height:50px;
 }
+
+.carousel-item {
+    height:350px;
+    width:100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators {
+    background-color:rgb(0, 0, 0,0.5);
+    border-radius:20px;
+}

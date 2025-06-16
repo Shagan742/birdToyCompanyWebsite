@@ -11,7 +11,7 @@ const items= [
     {
         productName:'Wooden Train Set',
         photo:'imgs/train1.jpg',
-        hiddenFact:'... ',
+        hiddenFact:'...',
         productPrice: 25,
         productImg:['imgs/train1.jpg', 'imgs/train2.jpg', 'imgs/train3.jpg', 'imgs/train4.jpg', 'imgs/train5.jpg', 'imgs/train6.jpg', 'imgs/train7.jpg'],
         productDescription:'Embark on a charming journey with this beautiful handcrafted wooden train set. Engine and three interchangeable cars boast intricate details made from real beech wood. Large size (84cm L x 11cm H x 13cm W) with moving wheels and a fully ecological design.'
@@ -22,7 +22,7 @@ const items= [
         photo:'imgs/boat1.jpg',
         hiddenFact:'...',
         productPrice: 14,
-        productImg: ['imgs/boat1.jpg', 'imgs/boat2.jpg'],
+        productImg: ['imgs/boat1.jpg'],
         productDescription:' Set sail for bathtub adventures with this adorable wooden boat. Made from solid Maine white pine, this handcrafted toy floats and features rounded edges for safety. Includes two peg "lobster people." Size: 10.5"W x 3.5"H.'
     },
 
