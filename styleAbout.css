@@ -1,23 +1,83 @@
 .navbar {
-    background-color: #FFAE74;
+    background-color: rgba(230, 133, 42, 0.89);
+}
+html {
+    overflow-x:hidden;
 }
 
 .img1 {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
 }
 
 .img2 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .img3 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .img4 {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    background-image: url('imgs/AboutBg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: center;
+}
+
+.sections {
+    background-color:rgba(255, 255, 255, 0.712);
+    border:2px solid white;
+    margin-bottom:30px;
+}
+
+footer {
+    background-color:#452313;
+    color: white;
+}
+
+.footer-heading {
+    font-size:40px;
+}
+
+.aboutUs {
+    color:white;
+    font-weight:bolder;
+    font-size:80px;
+}
+
+.subhead {
+    font-size:40px;
+    color:black;
+    font-weight: normal;
+}
+
+p {
+    font-size:20px;
+    font-weight: normal;
+}
+
+.FBlogo {
+    width:auto;
+    height:50px;
+}
+.Ilogo {
+    width:auto;
+    height:65px;
+}
+.TWTlogo {
+    width:auto;
+    height:65px;
+}
+.SClogo {
+    width:auto;
+    height:50px;
 }

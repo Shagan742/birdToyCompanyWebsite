@@ -10,3 +10,33 @@ html {
      height:160px;
 }
 
+footer {
+    background-color:#452313;
+    
+    color: white;
+}
+
+.footer-heading {
+    font-size:40px;
+}
+p {
+    font-size:20px;
+    font-weight: normal;
+}
+
+.FBlogo {
+    width:auto;
+    height:50px;
+}
+.Ilogo {
+    width:auto;
+    height:65px;
+}
+.TWTlogo {
+    width:auto;
+    height:65px;
+}
+.SClogo {
+    width:auto;
+    height:50px;
+}
