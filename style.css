@@ -47,19 +47,16 @@ animation-iteration-count: 1;
 
 .about {
     position:relative;
-    /* bottom:300px; */
     animation: fadeInn 4s;
     animation-iteration-count: 1;
 }
 .products {
     position:relative;
-    /* bottom:300px; */
     animation: fadeInn 4s;
         animation-iteration-count: 1;
 }
 .contact {
     position:relative;
-    /* bottom:300px; */
     animation: fadeInn 4s;
     animation-iteration-count: 1;
 

@@ -1,5 +1,7 @@
 .navbar {
-     background-color: #FFAE74;
+     /* background-color: #FFAE74; */
+         background-color: rgba(225, 117, 44, 0.89);
+
 }
 
 html {
@@ -8,6 +10,10 @@ html {
 
 .card-img-top {
      height:160px;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.79);
+    border:2px solid white;
 }
 
 footer {
@@ -49,4 +55,16 @@ p {
 .carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators {
     background-color:rgb(0, 0, 0,0.5);
     border-radius:20px;
+}
+
+body {
+    background-image: url('imgs/AboutBg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y:top;
+}
+
+h1 {
+    color: white;
 }

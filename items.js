@@ -4,7 +4,7 @@ const items= [
         photo:'imgs/plane1.jpg',
         hiddenFact:'...',
         productPrice: 15,
-        productImg:['imgs/plane1.jpg', 'imgs/plane2.jpg', 'imgs/plane3.jpg'],
+        productImg:['imgs/plane1.jpg', 'imgs/plane2.jpg', 'imgs/plane3.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg'],
         productDescription:'Soar through imaginative skies with this classic wooden airplane. Handcrafted from sustainable Baltic birch wood with a safe, natural harvest finish and a spinning propeller. Measures 3.5"H x 7"L x 7"W.'
     },
 
@@ -22,7 +22,7 @@ const items= [
         photo:'imgs/boat1.jpg',
         hiddenFact:'...',
         productPrice: 14,
-        productImg: ['imgs/boat1.jpg'],
+        productImg: ['imgs/boat1.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg'],
         productDescription:' Set sail for bathtub adventures with this adorable wooden boat. Made from solid Maine white pine, this handcrafted toy floats and features rounded edges for safety. Includes two peg "lobster people." Size: 10.5"W x 3.5"H.'
     },
 
@@ -31,7 +31,7 @@ const items= [
         photo:'imgs/block4 .jpg',
         hiddenFact:'...',
         productPrice: 50,
-        productImg:['imgs/block1.jpg', 'imgs/block2.jpg', 'imgs/block3.jpg', 'imgs/block4 .jpg', 'imgs/block5.jpg'],
+        productImg:['imgs/block1.jpg', 'imgs/block2.jpg', 'imgs/block3.jpg', 'imgs/block4 .jpg', 'imgs/block5.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg'],
         productDescription:'Build creativity and imagination with this high-quality, 72-piece block set. Made from naturally finished and smooth-sanded hardwood blocks, this set comes in a convenient wooden storage crate (13” L x 12” W x 2” H).'
     },
 
@@ -40,7 +40,7 @@ const items= [
         photo:'imgs/car1.jpg',
         hiddenFact:'...',
         productPrice: 20,
-         productImg: ['imgs/car1.jpg', 'imgs/car2.jpg', 'imgs/car3.jpg', 'imgs/car4.jpg'],
+        productImg: ['imgs/car1.jpg', 'imgs/car2.jpg', 'imgs/car3.jpg', 'imgs/car4.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg', 'imgs/noImg.jpg'],
         productDescription:'This heirloom-quality wooden car is a timeless treasure. Handcrafted from domestic and exotic hardwoods with a clear lacquer finish, this unique car will inspire generations of imaginative play. Please note potential choking hazards for small children.'
     },
 
