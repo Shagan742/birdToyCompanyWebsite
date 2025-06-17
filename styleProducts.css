@@ -1,5 +1,4 @@
 .navbar {
-     /* background-color: #FFAE74; */
          background-color: rgba(225, 117, 44, 0.89);
 
 }
@@ -67,4 +66,9 @@ body {
 
 h1 {
     color: white;
+}
+
+.nav-link {
+    color:white;
+    font-size:18px;
 }
