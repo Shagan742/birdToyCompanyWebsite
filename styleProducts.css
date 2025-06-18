@@ -1,7 +1,6 @@
 .navbar {
-         background-color: rgba(225, 117, 44, 0.89);
-    box-shadow: 0px 0px 20px rgba(225, 117, 44, 0.89);
-
+    background-color:#fbb17c;
+    box-shadow: 0px 0px 20px #FFAE74;
 }
 
 html {
@@ -68,7 +67,7 @@ p {
 }
 
 body {
-    background-image: url('imgs/AboutBg.png');
+    background-image: url('imgs/bg2.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
