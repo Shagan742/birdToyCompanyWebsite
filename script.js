@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
             const j = 0;
             col.className='col-md-4 col-sm-12 d-flex justify-content-center my-5'
             col.innerHTML=`
-            <div class="card h-100 mx-5" style="width:210px;">
+            <div class="card h-100 mx-5" style="width:250px;">
                     <img src="${item.photo}" alt="${item.productName}" class="card-img-top">
                     <div class="card-body text-center">
                         <h5 class="card-title mb-4">${item.productName}</h5>
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal${i}" tabindex="-1" aria-labelledby="exampleModalLabel${i}" aria-hidden="true">
-  <div class="modal-dialog" >
+  <div class="modal-dialog">
     <div class="modal-content">
 
     <div class="modal-header">
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
 
 
-        <p class="hiddenFact">Price: $${item.productPrice}</p>   
+        <p class="productPrice">Price: $${item.productPrice}</p>   
        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
       </div>
     </div>

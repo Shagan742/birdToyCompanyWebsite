@@ -70,3 +70,14 @@ body {
     background-color: #FFAE74;
 }
 
+.btn {
+    background-color:#7B7B7B;
+    color:#FFAE74;
+    font-weight:bold;
+}
+
+.btn:hover {
+    color:#7B7B7B;
+    background-color:#FFAE74;
+    border: 2px solid #7B7B7B;
+}

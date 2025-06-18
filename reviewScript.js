@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
             const col = document.createElement('div')
             col.className='col-md-4 col-sm-12 d-flex justify-content-center my-5'
             col.innerHTML=`
-            <div class="card h-100" style="width:210px;">
+            <div class="card h-100" style="width:250px; padding:10px;">
                     <div class="card-body text-center">
                         <h5 class="card-title mb-4">${review.firstName} ${review.lastName}, ${review.age}</h5>
                          <p class="small mb-3">${review.numberOfStars}</p>                       
