@@ -44,6 +44,15 @@ body {
 
 }
 
+.birdLogo {
+    width:40px;
+    height:30px;
+}
+
+.birdLogo:hover {
+    transform:scale(1.1);
+}
+
 footer {
     background-color:#452313;
     color: white;

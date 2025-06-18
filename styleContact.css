@@ -8,7 +8,7 @@ p {
     font-size:20px;
 }
 
-img {
+.store {
     width:100%;
     height:100%;
     border-radius:10px;
@@ -38,6 +38,15 @@ body {
 
 }
 
+.birdLogo {
+    width:40px;
+    height:30px;
+}
+
+.birdLogo:hover {
+    transform:scale(1.1);
+}
+
 
 h1 {
     color: white;
@@ -45,4 +54,12 @@ h1 {
 .nav-link {
     color:white;
     font-size:18px;
+}
+
+.socialMediaLinks {
+    color:black;
+}
+
+.socialMediaLinks:hover {
+    color:red;
 }

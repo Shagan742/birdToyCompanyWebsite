@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
                         <h5 class="card-title mb-4">${item.productName}</h5>
                        <p class="small mb-3">${item.productDescription}</p>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
   More Info
 </button>
 

@@ -89,6 +89,15 @@ h1 {
     color:black;
 }
 
+.birdLogo {
+    width:40px;
+    height:30px;
+}
+
+.birdLogo:hover {
+    transform:scale(1.1);
+}
+
 .modal-title, .modal-body, .productPrice {
     color:black;
 }
@@ -97,4 +106,16 @@ h1 {
     background-color:rgba(255, 255, 255, 0.777);
     border:3px solid white;
     box-shadow:0px 0px 6px white;
+}
+
+.btn {
+    background-color:#7B7B7B;
+    color:#FFAE74;
+    font-weight:bold;
+}
+
+.btn:hover {
+    color:#7B7B7B;
+    background-color:#FFAE74;
+    border: 2px solid #7B7B7B;
 }
